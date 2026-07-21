@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbook/Documents/SMSML_Zaidan/Membangun_model/mlruns/158395929646947477/22b2ea1507934c65848c3c3964aabc82/artifacts
+end_time: 1784673690279
+entry_point_name: ''
+experiment_id: '158395929646947477'
+lifecycle_stage: active
+run_id: 22b2ea1507934c65848c3c3964aabc82
+run_name: stylish-conch-914
+run_uuid: 22b2ea1507934c65848c3c3964aabc82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784673682600
+status: 3
+tags: []
+user_id: macbook

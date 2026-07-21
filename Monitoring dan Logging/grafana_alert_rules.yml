@@ -1,0 +1,29 @@
+apiVersion: 1
+
+groups:
+  - orgId: 1
+    name: wine-quality-alerts
+    folder: Alerts
+    interval: 1m
+
+    rules:
+      - uid: cpu-high
+        title: High CPU Usage
+        condition: A
+
+        data:
+          - refId: A
+            datasourceUid: prometheus
+            model:
+              expr: cpu_usage_percent > 80
+
+        noDataState: NoData
+        execErrState: Error
+
+        for: 2m
+
+        annotations:
+          summary: CPU usage is above 80%
+
+        labels:
+          severity: warning

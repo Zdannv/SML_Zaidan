@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbook/Documents/SMSML_Zaidan/Membangun_model/mlruns/614510730523264548/7410ba5bdc3d4b93ba786be5e5e2c7f2/artifacts
+end_time: 1784671858470
+entry_point_name: ''
+experiment_id: '614510730523264548'
+lifecycle_stage: active
+run_id: 7410ba5bdc3d4b93ba786be5e5e2c7f2
+run_name: polite-duck-226
+run_uuid: 7410ba5bdc3d4b93ba786be5e5e2c7f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784671837325
+status: 3
+tags: []
+user_id: macbook
